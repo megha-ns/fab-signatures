@@ -1,22 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
-
 import Main from "../layouts/Main";
-import common from "../data/common";
-import PresentCommittee from "../components/Committee/presentCommittee";
-import PastCommittee from "../components/Committee/pastCommittee";
-import ExPresident from "../components/Committee/exPresident";
 
-import { Tabs } from "react-bootstrap";
-import { Tab } from "react-bootstrap";
-
-const tabRoutes = {
-  present: PresentCommittee,
-  past: PastCommittee,
-  president: ExPresident
-}
-const Committee  = () => {
+const Committee = () => {
   return (
     <Main>
       <Helmet title="About fs-wardha" />
@@ -31,14 +18,14 @@ const Committee  = () => {
 
         <div className="container">
           <p>
-          {" "}
+            {" "}
             <strong>
               <span style={{ color: "#0073ff" }}>
-              ARE YOU ALWAYS UP FOR A CHALLENGE? WE’RE LOOKING FOR YOU!
+                ARE YOU ALWAYS UP FOR A CHALLENGE? WE’RE LOOKING FOR YOU!
               </span>
             </strong>{" "}
-          
- 
+
+
  PREPARE
  AS A DESIGN-ORIENTED, RETAIL FASHION HOUSE, UDAYAN SIGNATURE OFFERS OPPORTUNITIES IN DIVERSE AREAS OF THE BUSINESS. BEFORE YOU APPLY FOR ANY POSITION, CONSIDER THE PASSION YOU HOLD FOR THE JOB, AND ITS COMPATIBILITY WITH YOUR SKILLSET.
  LEARN MORE ABOUT THE FUNCTIONS AND POSSIBILITIES AT UDAYAN SIGNATURE PRIVATE LIMITED.
@@ -49,19 +36,19 @@ const Committee  = () => {
  {" "}
             <strong>
               <span style={{ color: "#ff0088" }}>
-              WE ARE HAVING JOBS IN – 
- MARKETING 
- IT , E COMMERCE 
- FINANCE
- LEGAL
- NETWORK EXPANSION
- FASHIONS AND DESIGNERS
- GRAPHICS DESIGNER
+                WE ARE HAVING JOBS IN –
+                MARKETING
+                IT , E COMMERCE
+                FINANCE
+                LEGAL
+                NETWORK EXPANSION
+                FASHIONS AND DESIGNERS
+                GRAPHICS DESIGNER
  EMAIL YOUR CV :</span> </strong>{" "}
- {" "}
+            {" "}
             <strong>
               <span style={{ color: "#0073ff" }}>
-            udayansignature@gmail.com 
+                udayansignature@gmail.com
                          </span>
             </strong>{" "}
           </p>
@@ -69,6 +56,6 @@ const Committee  = () => {
       </article>
     </Main>
   );
-  };
+};
 
 export default Committee;

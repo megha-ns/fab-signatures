@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Helmet from "react-helmet";
 import Main from "../layouts/Main";
-import { Card, ListGroup } from "react-bootstrap";
 import Event from "../components/Activites/events";
 
 const Activites = () => (
@@ -18,10 +17,10 @@ const Activites = () => (
         </div>
       </header>
 
-     
-        
-        <Event></Event>
-     
+
+
+      <Event></Event>
+
     </article>
   </Main>
 );
