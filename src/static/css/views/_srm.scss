@@ -1,0 +1,97 @@
+// Sant rohidas maharaj (/srm)
+
+#srm {
+  .logo {
+    border-bottom: 0;
+    display: inline-block;
+    margin: 0 0 (_size(element-margin) * 0.5) 0;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      width: 12em;
+      border-radius: 50%;
+      display: block;
+    }
+  }
+
+  header {
+    h2 {
+      font-size: 1.5em;
+      font-weight: _font(weight-heading-extrabold);
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+  }
+
+  .body {
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    padding: 1em;
+    .title {
+      text-align: center;
+    }
+    .content {
+      margin: 1em;
+      text-align: justify;
+      p {
+        margin: 0;
+      }
+    }
+
+  }
+  .text-center {
+    text-align: center !important;
+    margin: 5% 0 5% 0;
+  }
+  .map-card-header {
+    text-align: center;
+    padding: 3%;
+    font-weight: _font(weight-heading-bold);
+    font-size: 1rem;
+  }
+
+  @include breakpoint(large) {
+    margin: 0 0 _size(section-spacing) 0;
+    text-align: center;
+
+    header {
+      h2 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 0.7em;
+      }
+    }
+  }
+
+  @include breakpoint(small) {
+    margin: 0 0 _size(section-spacing-small) 0;
+    padding: 1.25em 0;
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+
+    .logo {
+      margin: 0 0 (_size(element-margin) * 0.25) 0;
+    }
+
+    header {
+      h2 {
+        font-size: 1.25em;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.history{
+  text-align: center;
+  width: 70%;
+}
+

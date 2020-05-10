@@ -1,0 +1,44 @@
+/* committee */
+
+#committee {
+  .link-to {
+    position: relative;
+    top: -4.5em;
+  }
+
+  .link-container h4 {
+    text-decoration: none;
+    border-bottom: none;
+    display: inline-flex;
+
+    a {
+      padding: 0 0.5em;
+      margin: 0;
+    }
+  }
+
+  .table-header-bg {
+    background-color: #4b49b7;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .body {
+    padding: 1em;
+    .title {
+      text-align: center;
+    }
+    .content {
+      text-align: center;
+    }
+  }
+
+  .img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+}
+  
+}
